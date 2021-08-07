@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>Taco</NavLogo>
+          <NavLogo>TCRO</NavLogo>
           <NavMenu>
             <NavItem>
               <NavLinks>Home</NavLinks>
