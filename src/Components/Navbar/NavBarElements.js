@@ -38,13 +38,13 @@ export const NavLinks = styled.li`
   text-decoration: none;
   cursor: pointer;
   align-items: center;
-  color: #000;
+  color: #99aab5;
   padding: 0 1rem;
   height: 100%;
 `;
 
 export const NavLogo = styled.ul`
-  color: #000;
+  color: #99aab5;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
