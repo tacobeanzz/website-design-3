@@ -1,55 +1,38 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  position: sticky;
-  top: 0;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  /* margin-top: 20px; */
-  font-size: 1rem;
-  z-index: 10;
-  background: #2c2f33;
-  /* background: #dddd; */
+  /* display: flex; */
+  /* justify-content: space-between; */
 `;
 
 export const NavbarContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  height: 80px;
-  padding: 0 24px;
-  background: #2c2f33;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
 `;
 
 export const NavMenu = styled.ul`
+  /* background-color: #ffff; */
   display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  margin-right: 22px;
-  background: #2c2f33;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
 `;
 export const NavItem = styled.li`
-  height: 80px;
+  /* background-color: #ffff; */
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* justify-content: space-between; */
 `;
 
 export const NavLinks = styled.li`
-  display: flex;
-  text-decoration: none;
-  cursor: pointer;
-  align-items: center;
-  color: #99aab5;
-  padding: 0 1rem;
-  height: 100%;
-  justify-content: flex-end;
-  background: #2c2f33;
+  /* background-color: #ffff; */
+  /* display: flex; */
+  align-items: flex-end;
+  /* justify-content: flex-end; */
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     padding: 0 0.5rem;
-  }
+  } */
   &.active {
     border-bottom: 3px solid #1780c7;
   }
@@ -61,22 +44,14 @@ export const NavLinks = styled.li`
 `;
 
 export const NavLogo = styled.ul`
-  color: #1780c7;
-  justify-self: center;
-  cursor: pointer;
-  font-size: 1.5rem;
   display: flex;
-  align-items: center;
-  margin-left: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  /* height: 100%; */
-
+  align-items: flex-end;
+  /* justify-content: space-between; */
   &:hover {
     transition: all 0.4s ease-in-out;
     color: #99aab5;
   }
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     display: flex;
     position: fixed;
     top: 0;
@@ -84,5 +59,5 @@ export const NavLogo = styled.ul`
     font-size: 1.8rem;
     cursor: pointer;
     justify-content: center;
-  }
+  } */
 `;
